@@ -1,0 +1,10 @@
+"use strict";
+/**
+ * Created by Laurence Ho on 07-02-2017.
+ */
+Object.defineProperty(exports, "__esModule", { value: true });
+var platform_browser_dynamic_1 = require("@angular/platform-browser-dynamic");
+var base_module_1 = require("./base.module");
+platform_browser_dynamic_1.platformBrowserDynamic().bootstrapModule(base_module_1.BaseModule);
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9tYWluLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQTs7R0FFRzs7QUFFSCw4RUFBMkU7QUFDM0UsNkNBQTJDO0FBQzNDLGlEQUFzQixFQUFFLENBQUMsZUFBZSxDQUFDLHdCQUFVLENBQUMsQ0FBQyIsImZpbGUiOiJhcHAvbWFpbi5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxyXG4gKiBDcmVhdGVkIGJ5IExhdXJlbmNlIEhvIG9uIDA3LTAyLTIwMTcuXHJcbiAqL1xyXG5cclxuaW1wb3J0IHsgcGxhdGZvcm1Ccm93c2VyRHluYW1pYyB9IGZyb20gJ0Bhbmd1bGFyL3BsYXRmb3JtLWJyb3dzZXItZHluYW1pYyc7XHJcbmltcG9ydCB7IEJhc2VNb2R1bGUgfSBmcm9tICcuL2Jhc2UubW9kdWxlJztcclxucGxhdGZvcm1Ccm93c2VyRHluYW1pYygpLmJvb3RzdHJhcE1vZHVsZShCYXNlTW9kdWxlKTtcclxuIl19
